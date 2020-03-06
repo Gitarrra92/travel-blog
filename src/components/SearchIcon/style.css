@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+}
+
+.inputSearch {
+  border: 0;
+  width: 0;
+  transition: width 0.5s ease-in;
+}
+
+.inputSearch:active {
+  width: 150px;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+.img-search {
+  cursor: pointer;
+}

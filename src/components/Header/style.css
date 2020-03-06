@@ -1,0 +1,30 @@
+.headerMenu {
+  margin: 10px 0;
+  background: #eae3e3;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerMenu a {
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  color: black;
+  margin-left: 12px;
+}
+
+.headerMenu a:hover {
+  color: #5f9ea0;
+}
+
+.menuList {
+  list-style-type: none;
+  margin: 10px 0;
+  background: #eae3e3;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

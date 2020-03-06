@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "blogCategory": "Featured",
+      "blogTitle": "Why is it important to travel?",
+      "slug": "fitness-mantra-to-live-fit-life",
+      "postedOn": "July 21, 2016",
+      "author": "Natalia Pilewska",
+      "blogImage": "travel.jpg",
+      "shortText": "Traveling is a very crucial part...",
+      "blogText": "Traveling is a very crucial part of life as it is the best way to get out of the busy schedule. It is also to experience life in different ways . Traveling is actually a good remedy for stress, anxiety and depression. It also improves the mental and physical health."
+    },
+    {
+      "id": 2,
+      "blogCategory": "Simple",
+      "blogTitle": "What is the purpose of Travelling?",
+      "slug": "beautiful-and-special-moment",
+      "postedOn": "May 03, 2016",
+      "author": "Natalia Pilewska",
+      "blogImage": "travel2.jpg",
+      "shortText": "The purpose of travel is connected with..",
+      "blogText": "The purpose of travel is connected with building social relationships, opportunities to learn and grow, and commitment. It gives us the chance to be truly engaged in an activity, to develop new skills and to discover new cultures. It brings us closer to ourselves and others"
+    },
+    {
+      "id": 3,
+      "blogCategory": "Simple",
+      "blogTitle": "Why is traveling important for learning?",
+      "slug": "beauti-lies-within-special",
+      "postedOn": "Apr 02, 2017",
+      "author": "Natalia Pilewska",
+      "blogImage": "travel3.jpg",
+      "shortText": "Because traveling helps you build...",
+      "blogText": "Because traveling helps you build confidence. You have learned a new language, and used it to haggle over prices in the local market. They're all things you didn't know you could do before. With travel, come challenges. And the more challenges you take on, the more confident of yourself you become."
+    },
+    {
+      "id": 4,
+      "blogCategory": "Featured",
+      "blogTitle": "Why do people need travel?",
+      "slug": "sliding-my-way-to-life",
+      "postedOn": "Jan 02, 2019",
+      "author": "Natalia Pilewska",
+      "blogImage": "travel4.jpg",
+      "shortText": "Most People Travel because they...",
+      "blogText": "Most People Travel because they want to see their families and friends who live far away. ... People travel to seek for work because they want to experience how to work from another place. We must admit that earning money is hard and some people decide to work abroad because they are looking for greener pasture."
+    },
+    {
+      "id": 5,
+      "blogCategory": "Fashion",
+      "blogTitle": "How does travel improve your life?",
+      "slug": "memories-from-last-summer",
+      "postedOn": "Feb 21, 2018",
+      "author": "Natalia Pilewska",
+      "blogImage": "travel5.jpg",
+      "shortText": "Travel and live a happier and ...",
+      "blogText": "Travel and live a happier and healthier life. It helps your physical and mental health, with many travelers saying that it's also excellent for the soul. Sure, there are some stressful and worrying moments. But overall, when you get out on the road and visit new countries you gain in far more ways."
+    }
+  ]
+}

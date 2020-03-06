@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  text-transform: capitalize;
+  font-size: 32px;
+  font-family: "Dancing Script";
+  font-weight: medium;
+  border: 2px solid black;
+}

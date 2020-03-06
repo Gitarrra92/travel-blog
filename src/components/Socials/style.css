@@ -1,0 +1,21 @@
+.socials {
+  background: #5f9ea0;
+  padding: 2rem 1rem;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem 0;
+}
+a.socialIcon {
+  transition: transform 250ms;
+  display: inline-block;
+  color: black;
+}
+a.socialIcon:hover {
+  transform: translateY(-8px);
+  color: beige;
+}

@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  height: 6rem;
+  background: black;
+  color: wheat;
+  font-size: 1.2rem;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.footer-content :nth-child(1) {
+  margin-right: 5px;
+}
