@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./style.css";
 import Post from "../Post";
 
 const MainContent = ({ posts }) => {
-  //console.log(posts.blogTitle);
-
   return (
     <main className="main-content">
       {posts.map(post => {

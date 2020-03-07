@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -16,10 +16,12 @@ function App() {
       <BrowserRouter>
         <Header />
         <Hero />
-        <Route path="/" exact component={Home} />
-        <Route path="/about-us" component={AboutUs} />
-        <Route path="/contact-us" component={Contact} />
-        <Route path="/post/:id" component={SinglePost} />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about-us" component={AboutUs} />
+          <Route path="/contact-us" component={Contact} />
+          <Route path="/post/:id" component={SinglePost} />
+        </Switch>
         <Footer />
       </BrowserRouter>
     </div>

@@ -7,7 +7,7 @@ import {
   faTwitter,
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Title from "../../components/Title";
 
@@ -16,9 +16,9 @@ const Socials = ({ title }) => {
     <div className="socials">
       <Title title="Here you can find us" />
       <div className="socialIcons">
-        <a className="socialIcon youtube" href="https://www.youtube.com">
+        <Link className="socialIcon youtube" to="https://www.youtube.com">
           <FontAwesomeIcon icon={faYoutube} size="3x"></FontAwesomeIcon>
-        </a>
+        </Link>
         <a className="socialIcon facebook" href="https://www.facebook.com">
           <FontAwesomeIcon icon={faFacebook} size="3x"></FontAwesomeIcon>
         </a>
