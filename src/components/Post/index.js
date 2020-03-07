@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Animated } from "react-animated-css";
 
 const Post = ({ post }) => {
@@ -19,9 +19,9 @@ const Post = ({ post }) => {
           ></img>
         </div>
         <p className="postDescription">{post.blogText}</p>
-        <NavLink to={`/post/${post.id}`}>
+        <Link to={`/post/${post.id}`}>
           <h5 className="postLink">Read more</h5>
-        </NavLink>
+        </Link>
         <h5 className="posteDate">
           Posted on {post.postedOn} by {post.author}
         </h5>
