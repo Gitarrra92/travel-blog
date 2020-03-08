@@ -10,7 +10,6 @@ const Form = ({ title }) => {
 
   const onSubmit = (data, e) => {
     e.preventDefault();
-    console.log(data);
   };
 
   return (
