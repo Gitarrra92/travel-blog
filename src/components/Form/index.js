@@ -25,36 +25,31 @@ const Form = ({ title }) => {
           <form onSubmit={handleSubmit(onSubmit)}>
             <div>
               <input
-                className="inputForm"
+                className={`inputForm ${errors.name ? "inputFormError" : ""}`}
                 name="name"
                 type="text"
                 placeholder="name"
                 ref={register({ required: true })}
-              ></input>
-              {errors.name && <p style={{ color: "red" }}>Field is required</p>}
+              />
 
               <input
-                className="inputForm"
+                className={`inputForm ${
+                  errors.surname ? "inputFormError" : ""
+                }`}
                 name="surname"
                 type="text"
                 placeholder="surname"
                 ref={register({ required: true })}
-              ></input>
-              {errors.surname && (
-                <p style={{ color: "red" }}>Field is required</p>
-              )}
+              />
             </div>
             <div>
               <input
-                className="inputForm"
+                className={`inputForm ${errors.email ? "inputFormError" : ""}`}
                 name="email"
                 type="text"
                 placeholder="email"
                 ref={register({ required: true })}
-              ></input>
-              {errors.email && (
-                <p style={{ color: "red" }}>Field is required</p>
-              )}
+              />
 
               <input
                 className="inputForm"
@@ -62,18 +57,17 @@ const Form = ({ title }) => {
                 type="text"
                 placeholder="phone number"
                 ref={register}
-              ></input>
+              />
             </div>
             <div>
               <textarea
-                className="inputForm areaForm"
+                className={`inputForm areaForm ${
+                  errors.message ? "inputFormError" : ""
+                }`}
                 name="message"
                 placeholder="Your message"
                 ref={register({ required: true })}
               ></textarea>
-              {errors.message && (
-                <p style={{ color: "red" }}>Field is required</p>
-              )}
             </div>
             <div>
               <button className="formButton" type="submit">

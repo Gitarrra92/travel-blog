@@ -1,3 +1,9 @@
 .sidebar {
   width: 20%;
 }
+
+@media (max-width: 700px) {
+  .sidebar {
+    width: 96%;
+  }
+}

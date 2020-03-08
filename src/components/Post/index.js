@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.css";
+
 import { Link } from "react-router-dom";
 import { Animated } from "react-animated-css";
 
-const Post = ({ post }) => {
+const Post = ({ post, isSingle }) => {
   return (
     <div className="post">
       <Animated
@@ -15,13 +16,27 @@ const Post = ({ post }) => {
         <div className="imgContainer">
           <img
             alt="travel"
-            src={require("../../assets/img/" + post.blogImage)}
+            src={
+              post.blogImage
+                ? require("../../assets/img/" + post.blogImage)
+                : ""
+            }
           ></img>
         </div>
-        <p className="postDescription">{post.blogText}</p>
-        <Link to={`/post/${post.id}`}>
-          <h5 className="postLink">Read more</h5>
-        </Link>
+        {!isSingle ? (
+          <p className="postDescription">{post.postShortDescription}</p>
+        ) : (
+          <p className="postDescription">{post.blogText}</p>
+        )}
+        {!isSingle ? (
+          <Link to={`/post/${post.id}`}>
+            <h5 className="postLink">Read more</h5>
+          </Link>
+        ) : (
+          <Link to={`/`}>
+            <h5 className="postLink">Back to home page</h5>
+          </Link>
+        )}
         <h5 className="posteDate">
           Posted on {post.postedOn} by {post.author}
         </h5>

@@ -10,3 +10,9 @@
 .scene svg {
   width: 50%;
 }
+
+@media (max-width: 700px) {
+  .scene svg {
+    width: 80%;
+  }
+}

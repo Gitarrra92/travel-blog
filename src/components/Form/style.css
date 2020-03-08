@@ -18,6 +18,10 @@
   border: 0.5px solid #eae3e3;
 }
 
+.inputFormError {
+  border: 0.5px solid #ff0000;
+}
+
 .formButton {
   padding: 12px 20px;
   border-radius: 12px;
@@ -37,4 +41,10 @@
 .areaForm {
   width: 100%;
   height: 10rem;
+}
+
+@media (max-width: 600px) {
+  .inputForm {
+    width: 100%;
+  }
 }
