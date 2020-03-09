@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { useForm } from "react-hook-form";
 import { Animated } from "react-animated-css";
@@ -7,9 +7,17 @@ import Title from "../Title";
 
 const Form = ({ title }) => {
   const { register, handleSubmit, errors } = useForm();
+  const [message, setMessage] = useState(false);
+
+  const displayMessage = () => {
+    setMessage(true);
+  };
 
   const onSubmit = (data, e) => {
     e.preventDefault();
+    console.log(data);
+    displayMessage();
+    e.target.reset();
   };
 
   return (
@@ -22,6 +30,8 @@ const Form = ({ title }) => {
           isVisible={true}
         >
           <form onSubmit={handleSubmit(onSubmit)}>
+            {message ? <Title title="Thank you for your message"></Title> : ""}
+
             <div className="form__row">
               <input
                 className={`inputForm ${errors.name ? "inputFormError" : ""}`}
