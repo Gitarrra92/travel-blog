@@ -16,13 +16,14 @@
   border-radius: 12px;
   outline: none;
   border: 0.5px solid #eae3e3;
+  width: 100%;
 }
 
 .inputFormError {
   border: 0.5px solid #ff0000;
 }
 
-.formButton {
+.form__formButton {
   padding: 12px 20px;
   border-radius: 12px;
   background-color: #5f9ea0;
@@ -43,8 +44,11 @@
   height: 10rem;
 }
 
-@media (max-width: 600px) {
-  .inputForm {
-    width: 100%;
+@media (min-width: 700px) {
+  .form__row {
+    display: flex;
+  }
+  .areaForm {
+    width: 97%;
   }
 }

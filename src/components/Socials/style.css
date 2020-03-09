@@ -3,7 +3,7 @@
   padding: 2rem 1rem;
 }
 
-.socialIcons {
+.socials__icons {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;

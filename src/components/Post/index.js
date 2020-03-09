@@ -12,8 +12,8 @@ const Post = ({ post, isSingle }) => {
         animationOut="fadeOut"
         isVisible={true}
       >
-        <h3 className="postTitle">{post.blogTitle}</h3>
-        <div className="imgContainer">
+        <h3 className="post__title">{post.blogTitle}</h3>
+        <div className="post__imgContainer">
           <img
             alt="travel"
             src={
@@ -24,20 +24,20 @@ const Post = ({ post, isSingle }) => {
           ></img>
         </div>
         {!isSingle ? (
-          <p className="postDescription">{post.postShortDescription}</p>
+          <p className="post__escription">{post.postShortDescription}</p>
         ) : (
-          <p className="postDescription">{post.blogText}</p>
+          <p className="post__description">{post.blogText}</p>
         )}
         {!isSingle ? (
           <Link to={`/post/${post.id}`}>
-            <h5 className="postLink">Read more</h5>
+            <h5 className="post__link">Read more</h5>
           </Link>
         ) : (
           <Link to={`/`}>
-            <h5 className="postLink">Back to home page</h5>
+            <h5 className="post__link">Back to home page</h5>
           </Link>
         )}
-        <h5 className="posteDate">
+        <h5 className="post__date">
           Posted on {post.postedOn} by {post.author}
         </h5>
       </Animated>

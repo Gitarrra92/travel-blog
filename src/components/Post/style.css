@@ -1,9 +1,9 @@
-.posteDate {
+.post__date {
   font-size: 0.8rem;
   text-align: right;
 }
 
-.postLink {
+.post__link {
   font-size: 1rem;
   color: grey;
   cursor: pointer;
@@ -11,7 +11,7 @@
   text-align: right;
 }
 
-.postTitle {
+.post__title {
   font-size: 2rem;
   text-align: center;
   font-family: "Dancing Script";
@@ -19,7 +19,7 @@
   text-transform: capitalize;
 }
 
-.postDescription {
+.post__description {
   font-size: 1.2rem;
 }
 
@@ -30,12 +30,12 @@
   margin-bottom: 3.2rem;
 }
 
-.imgContainer {
+.post__imgContainer {
   width: 100%;
   margin-top: 10px;
 }
 
-.imgContainer img {
+.post__imgContainer img {
   max-width: 100%;
   max-height: 100%;
 }

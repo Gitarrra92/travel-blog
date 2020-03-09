@@ -14,7 +14,7 @@ const MainContainer = () => {
   }, []);
 
   return (
-    <div className="main-container">
+    <div className="mainContainer">
       <MainContent posts={posts} />
       <SideBar posts={posts} />
     </div>

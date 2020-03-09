@@ -5,7 +5,7 @@
   color: wheat;
   font-size: 1.2rem;
 }
-.footer-content {
+.footer__content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,6 +14,6 @@
   height: 100%;
 }
 
-.footer-content :nth-child(1) {
+.footer__content :nth-child(1) {
   margin-right: 5px;
 }

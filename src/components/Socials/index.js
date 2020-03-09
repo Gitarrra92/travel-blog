@@ -15,14 +15,14 @@ const Socials = ({ title }) => {
   return (
     <div className="socials">
       <Title title="Here you can find us" />
-      <div className="socialIcons">
-        <Link className="socialIcon youtube" to="https://www.youtube.com">
+      <div className="socials__icons">
+        <Link className="socialIcon" to="https://www.youtube.com">
           <FontAwesomeIcon icon={faYoutube} size="3x"></FontAwesomeIcon>
         </Link>
-        <a className="socialIcon facebook" href="https://www.facebook.com">
+        <a className="socialIcon" href="https://www.facebook.com">
           <FontAwesomeIcon icon={faFacebook} size="3x"></FontAwesomeIcon>
         </a>
-        <a className="socialIcon twitter" href="https://www.twitter.com">
+        <a className="socialIcon" href="https://www.twitter.com">
           <FontAwesomeIcon icon={faTwitter} size="3x"></FontAwesomeIcon>
         </a>
         <a className="socialIcon instagram" href="https://www.instagram.com">

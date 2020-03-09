@@ -22,7 +22,7 @@ const Form = ({ title }) => {
           isVisible={true}
         >
           <form onSubmit={handleSubmit(onSubmit)}>
-            <div>
+            <div className="form__row">
               <input
                 className={`inputForm ${errors.name ? "inputFormError" : ""}`}
                 name="name"
@@ -41,7 +41,7 @@ const Form = ({ title }) => {
                 ref={register({ required: true })}
               />
             </div>
-            <div>
+            <div className="form__row">
               <input
                 className={`inputForm ${errors.email ? "inputFormError" : ""}`}
                 name="email"
@@ -69,7 +69,7 @@ const Form = ({ title }) => {
               ></textarea>
             </div>
             <div>
-              <button className="formButton" type="submit">
+              <button className="form__formButton" type="submit">
                 Send
               </button>
             </div>

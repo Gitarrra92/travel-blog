@@ -1,13 +1,14 @@
 import React from "react";
 import "../Header/style.css";
-import SearchIcon from "../SearchIcon";
 import { NavLink } from "react-router-dom";
+
+import SearchIcon from "../SearchIcon";
 
 const Header = () => {
   return (
     <header>
       <nav className="headerMenu">
-        <ul className="menuList">
+        <ul className="headerMenu__menuList">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>

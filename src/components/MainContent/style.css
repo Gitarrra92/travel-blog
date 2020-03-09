@@ -1,9 +1,9 @@
 .main-content {
-  width: 70%;
+  width: 97%;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   .main-content {
-    width: 97%;
+    width: 70%;
   }
 }
