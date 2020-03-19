@@ -1,0 +1,14 @@
+.showingComments {
+  margin-top: 12px;
+  background: #fbf8f8;
+}
+.displaySingleComment {
+  background-color: white;
+  padding: 10px 15px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  margin: 16px 3%;
+}
+.commentName {
+  font-weight: 600;
+}

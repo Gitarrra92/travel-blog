@@ -4,6 +4,7 @@ import "./style.css";
 import SideBar from "../SideBar";
 import MainContent from "../MainContent";
 import blogData from "../../assets/data/blog.json";
+import Comments from "../Comments";
 
 const MainContainer = () => {
   const [posts, setPosts] = useState([]);
@@ -14,10 +15,13 @@ const MainContainer = () => {
   }, []);
 
   return (
-    <div className="mainContainer">
-      <MainContent posts={posts} />
-      <SideBar posts={posts} />
-    </div>
+    <>
+      <div className="mainContainer">
+        <MainContent posts={posts} />
+        <SideBar posts={posts} />
+      </div>
+      <Comments />
+    </>
   );
 };
 
