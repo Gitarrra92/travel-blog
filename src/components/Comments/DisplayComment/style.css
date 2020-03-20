@@ -12,3 +12,16 @@
 .commentName {
   font-weight: 600;
 }
+
+.simpleComment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.commentLike {
+  padding: 1rem;
+  cursor: pointer;
+  color: red;
+}
